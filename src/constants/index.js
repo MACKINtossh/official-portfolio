@@ -116,11 +116,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "Contra Technologies",
+    title: "Astrophysics Major",
+    company_name: "Columbia University New York",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "July 2021 - December 2021",
+    date: "September 2019 - May 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -143,7 +143,7 @@ const experiences = [
   },
   {
     title: "Full Stack Developer",
-    company_name: "CVP",
+    company_name: "CVP - Contract for Enviromental Protection Agency",
     icon: shopify,
     iconBg: "#383E56",
     date: "August 2022 - May 2023",
@@ -156,7 +156,7 @@ const experiences = [
   },
   {
     title: "Full Stack Developer",
-    company_name: "Contra Technologies",
+    company_name: "Super Rich - Independant Contractor",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -198,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Business Solutions",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The following projects are examples of browser based websites that can be used by businesses to promote thier products and expand their market footprint. You will see mobile responsive sites and redux toolkit for state management.",
     tags: [
       {
         name: "react",
@@ -219,9 +219,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Dynamic UI/UX Examples",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This section contains demos of projects I have build that showcase my front end abilities. You will find examples of smooth and dynamic scrolling using GSAP, mobile responsivness and modern layout designs.",
     tags: [
       {
         name: "react",
@@ -240,7 +240,70 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Next.Js Examples",
+    description:
+      "The demos included here are examples of projects that I have build which have a primary focus on the use of the Nextjs library. You can again expect mobile responsive sites and state redux toolkit for state management.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Typscript Examples",
+    description:
+      "The demos included here are examples of projects that I have build which have a primary focus on the use of Typescrpt. You can again expect mobile responsive sites and state redux toolkit for state management.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "MidJourney Examples",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "AI Examples",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
