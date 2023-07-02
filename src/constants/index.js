@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  columbia,
+  springboard,
+  cvp,
+  tiger,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +122,7 @@ const experiences = [
   {
     title: "Astrophysics Major",
     company_name: "Columbia University New York",
-    icon: starbucks,
+    icon: columbia,
     iconBg: "#383E56",
     date: "September 2019 - May 2022",
     points: [
@@ -131,7 +135,7 @@ const experiences = [
   {
     title: "Full Stack Fellowship",
     company_name: "Springboard",
-    icon: tesla,
+    icon: springboard,
     iconBg: "#E6DEDD",
     date: "December 2021 - September 2022",
     points: [
@@ -144,7 +148,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "CVP - Contract for Enviromental Protection Agency",
-    icon: shopify,
+    icon: cvp,
     iconBg: "#383E56",
     date: "August 2022 - May 2023",
     points: [
@@ -157,7 +161,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Super Rich - Independant Contractor",
-    icon: meta,
+    icon: tiger,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -198,7 +202,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Business Solutions",
+    name: "Gateway Ice Center",
     description:
       "The following projects are examples of browser based websites that can be used by businesses to promote thier products and expand their market footprint. You will see mobile responsive sites and redux toolkit for state management.",
     tags: [
@@ -219,7 +223,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Dynamic UI/UX Examples",
+    name: "Out Of This World",
     description:
       "This section contains demos of projects I have build that showcase my front end abilities. You will find examples of smooth and dynamic scrolling using GSAP, mobile responsivness and modern layout designs.",
     tags: [
@@ -240,7 +244,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Next.Js Examples",
+    name: "Food Delivery",
     description:
       "The demos included here are examples of projects that I have build which have a primary focus on the use of the Nextjs library. You can again expect mobile responsive sites and state redux toolkit for state management.",
     tags: [
@@ -261,7 +265,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Typscript Examples",
+    name: "Work Around",
     description:
       "The demos included here are examples of projects that I have build which have a primary focus on the use of Typescrpt. You can again expect mobile responsive sites and state redux toolkit for state management.",
     tags: [
@@ -282,7 +286,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "MidJourney Examples",
+    name: "Lift Off",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -303,7 +307,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "AI Examples",
+    name: "Document Sumarizer",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [

@@ -5,24 +5,32 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen  mx-auto ">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} absolute inset-0 gap-5 top-[80px] max-w-7xl mx-auto flex flex-row items-start`}
       >
+        {/* shooting star */}
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
+        {/* shooting star */}
 
-        <div className="">
-          <h1 className={`${styles.heroHeadText}`}>
-            Hi, I'm <span className="text-[#915eff]">Jordan</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop full stack web applications ,
-            <br className="sm:block hidden" /> mobile applications and 3D
-            visuals
-          </p>
+        <div className="w-full h-auto">
+          <div className="flex flex-col items-start gap-1">
+            <div>
+              <h1 className={`${styles.heroHeadText} px-5`}>
+                Hi, I'm <span className="gold">Jordan</span>
+              </h1>
+            </div>
+            <p
+              className={`${styles.heroSubText} inline-block sm:flex-wrap text-white-100 p-4 rounded-xl hover:shadow-xl backdrop-blur-sm bg-gray-400/50 border-gray-800/50 border`}
+            >
+              I am a software developer currently searching
+              <br className="sm:block hidden" /> for full time, remote
+              devlopment positions.
+            </p>
+          </div>
         </div>
       </div>
 

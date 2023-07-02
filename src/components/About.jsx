@@ -41,13 +41,15 @@ const About = () => {
 
       <motion.p
         varients={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a software developer with <span className="gold">3 years</span> of experience coding
+        in <span className="gold">TypeScript</span> and <span className="gold">JavaScript</span>. I commonly use
+        frameworks such as <span className="gold">React </span>, <span className="gold">Nextjs </span>,{" "}
+        <span className="gold">Nestjs </span>, and <span className="gold">Three.js</span>. I'm a quick learner and
+        collaborate closely with clients to create efficient, scalable, and
+        user-friendly solutions that solve real-world problems. Let's work
+        together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
