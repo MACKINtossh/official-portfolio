@@ -28,7 +28,7 @@ const Hero = () => {
             >
               I am a software developer currently searching
               <br className="sm:block hidden" /> for full time, remote
-              devlopment positions.
+              development positions.
             </p>
           </div>
         </div>
