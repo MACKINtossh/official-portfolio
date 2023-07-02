@@ -16,13 +16,13 @@ import {
   figma,
   docker,
   gateway,
-  jobit,
   tripguide,
   threejs,
   columbia,
   springboard,
   cvp,
   tiger,
+  outOfThisWorld,
 } from "../assets";
 
 export const navLinks = [
@@ -236,8 +236,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: outOfThisWorld,
+    source_code_link: "https://github.com/MACKINtossh/out-of-this-world",
   },
   {
     name: "Food Delivery",
