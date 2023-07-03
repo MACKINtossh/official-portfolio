@@ -240,48 +240,6 @@ const projects = [
     source_code_link: "https://github.com/MACKINtossh/out-of-this-world",
   },
   {
-    name: "Food Delivery",
-    description:
-      "The demos included here are examples of projects that I have build which have a primary focus on the use of the Nextjs library. You can again expect mobile responsive sites and state redux toolkit for state management.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Work Around",
-    description:
-      "The demos included here are examples of projects that I have build which have a primary focus on the use of Typescrpt. You can again expect mobile responsive sites and state redux toolkit for state management.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Lift Off",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -306,6 +264,48 @@ const projects = [
     name: "Document Sumarizer",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Food Delivery",
+    description:
+      "The demos included here are examples of projects that I have build which have a primary focus on the use of the Nextjs library. You can again expect mobile responsive sites and state redux toolkit for state management.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Work Around",
+    description:
+      "The demos included here are examples of projects that I have build which have a primary focus on the use of Typescrpt. You can again expect mobile responsive sites and state redux toolkit for state management.",
     tags: [
       {
         name: "nextjs",
