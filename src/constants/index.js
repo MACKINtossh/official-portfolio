@@ -16,19 +16,23 @@ import {
   figma,
   docker,
   gateway,
-  tripguide,
   threejs,
   columbia,
   springboard,
   cvp,
   tiger,
   outOfThisWorld,
+  crabHouse,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "work",
@@ -46,15 +50,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native / IOS Developer",
+    title: "Typescript & Javascript",
     icon: mobile,
   },
   {
-    title: "Web3 Developer",
+    title: "Nextjs, Nestjs and React",
     icon: backend,
   },
   {
-    title: "UI / UX Designer",
+    title: "SQL, MySQL, Express and MongoDB",
     icon: creator,
   },
 ];
@@ -200,18 +204,18 @@ const projects = [
   {
     name: "Gateway Ice Center",
     description:
-      "The following projects are examples of browser based websites that can be used by businesses to promote thier products and expand their market footprint. You will see mobile responsive sites and redux toolkit for state management.",
+      "Built a website for a local ice skating rink with Typescript, React, Nextjs and Tailwind.The website contains several pages of information with dropdowns and calendar functionality. Users can email the business from the website and view updated times and schedules",
     tags: [
       {
-        name: "react",
+        name: "Javascript & React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -221,18 +225,18 @@ const projects = [
   {
     name: "Out Of This World",
     description:
-      "This section contains demos of projects I have build that showcase my front end abilities. You will find examples of smooth and dynamic scrolling using GSAP, mobile responsivness and modern layout designs.",
+      "This website is a futuristic travel website that allows users to book trips to destinationspreviously off limits to passengers. Buit with Typescript, React, Nextjs MySQL, PlanetScale and Tailwind CSS.",
     tags: [
       {
-        name: "react",
+        name: "Typescript & Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
@@ -240,89 +244,89 @@ const projects = [
     source_code_link: "https://github.com/MACKINtossh/out-of-this-world",
   },
   {
-    name: "Lift Off",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Document Sumarizer",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Food Delivery",
     description:
-      "The demos included here are examples of projects that I have build which have a primary focus on the use of the Nextjs library. You can again expect mobile responsive sites and state redux toolkit for state management.",
+      "Built an e-commerce, food delivery website for East and Southeast Asian delicacies. Built with Typescript, React, Nextjs, MySQL, PlanetScale and Tailwind CSS",
     tags: [
       {
-        name: "nextjs",
+        name: "Typescript & Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "PlanetScale",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: crabHouse,
+    source_code_link: "https://github.com/MACKINtossh/sushiShop/",
   },
-  {
-    name: "Work Around",
-    description:
-      "The demos included here are examples of projects that I have build which have a primary focus on the use of Typescrpt. You can again expect mobile responsive sites and state redux toolkit for state management.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Lift Off",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Document Sumarizer",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Work Around",
+  //   description:
+  //     "The demos included here are examples of projects that I have build which have a primary focus on the use of Typescrpt. You can again expect mobile responsive sites and state redux toolkit for state management.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: ,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

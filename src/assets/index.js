@@ -29,8 +29,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import outOfThisWorld from "./outOfThisWorld.png";
 import gateway from "./gateway.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import crabHouse from "./crabHouse.png";
 
 export {
   logo,
@@ -61,9 +60,8 @@ export {
   starbucks,
   tesla,
   gateway,
-  jobit,
-  tripguide,
   tiger,
   columbia,
   outOfThisWorld,
+  crabHouse,
 };
