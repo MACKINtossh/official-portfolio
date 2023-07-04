@@ -7,6 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+// template_iqhun4a
+// service_hp431iw
+// JA6Rpct0e3hwrMksx
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -33,16 +37,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_hp431iw",
+        "template_iqhun4a",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Jordan Fontaine",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "jordanmfontaine@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "JA6Rpct0e3hwrMksx"
       )
       .then(
         () => {
@@ -106,7 +110,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows={7}
-              name="Message"
+              name="message"
               value={form.message}
               onChange={handleChange}
               placeholder="Send me a message"
