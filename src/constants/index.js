@@ -25,6 +25,7 @@ import {
   crabHouse,
   companion,
   ai,
+  strings,
 } from "../assets";
 
 export const navLinks = [
@@ -252,7 +253,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: crabHouse,
+    image: strings,
     source_code_link: "https://github.com/MACKINtossh/strings",
     source_code_link: "https://github.com/MACKINtossh/strings",
   },

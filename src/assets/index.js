@@ -33,6 +33,7 @@ import crabHouse from "./crabHouse.png";
 import jordan from "./jordan.jpg";
 import companion from "./companion-ai.png";
 import ai from "./ai-saas.png";
+import strings from "./strings.png";
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   jordan,
   companion,
   ai,
+  strings,
 };
