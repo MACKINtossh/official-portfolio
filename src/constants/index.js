@@ -23,6 +23,8 @@ import {
   tiger,
   outOfThisWorld,
   crabHouse,
+  companion,
+  ai,
 } from "../assets";
 
 export const navLinks = [
@@ -206,11 +208,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: gateway,
+    image: companion,
     source_code_link: "https://github.com/MACKINtossh/ai-companion",
+    source_code_link2: "https://companion-io.vercel.app",
   },
   {
-    name: "Out Of This World",
+    name: "AI Generator",
     description:
       "This website is an AI generator that allows users to sign in and generate code, images, music, videos and conversations. Conversations and images use OpeAI and videos and music are generated using the Replicate API. The project also features full user authentication, stripe subscriptions and full responsiveness. Prisma, MYSQL and PlanetScale were used for the backend production. The project also features AI customer service with Crisp. ",
     tags: [
@@ -227,8 +230,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: outOfThisWorld,
+    image: ai,
     source_code_link: "https://github.com/MACKINtossh/ai-saas",
+    source_code_link2: "https://raindrop-saas.vercel.app",
   },
   {
     name: "Strings",
@@ -249,6 +253,7 @@ const projects = [
       },
     ],
     image: crabHouse,
+    source_code_link: "https://github.com/MACKINtossh/strings",
     source_code_link: "https://github.com/MACKINtossh/strings",
   },
 ];

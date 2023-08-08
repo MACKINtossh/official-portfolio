@@ -31,6 +31,8 @@ import outOfThisWorld from "./outOfThisWorld.png";
 import gateway from "./gateway.png";
 import crabHouse from "./crabHouse.png";
 import jordan from "./jordan.jpg";
+import companion from "./companion-ai.png";
+import ai from "./ai-saas.png";
 
 export {
   logo,
@@ -66,4 +68,6 @@ export {
   outOfThisWorld,
   crabHouse,
   jordan,
+  companion,
+  ai,
 };
