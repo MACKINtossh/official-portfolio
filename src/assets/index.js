@@ -30,6 +30,7 @@ import tesla from "./company/tesla.png";
 import outOfThisWorld from "./outOfThisWorld.png";
 import gateway from "./gateway.png";
 import crabHouse from "./crabHouse.png";
+import jordan from "./jordan.jpg";
 
 export {
   logo,
@@ -64,4 +65,5 @@ export {
   columbia,
   outOfThisWorld,
   crabHouse,
+  jordan,
 };

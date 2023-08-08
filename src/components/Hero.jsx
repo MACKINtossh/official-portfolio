@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { jordan } from "../assets";
 // import { ComputerCanvas } from "./canavs";
 
 const Hero = () => {
@@ -16,27 +17,33 @@ const Hero = () => {
         </div>
         {/* shooting star */}
 
-        <div className="w-full h-auto">
-          <div className="flex flex-col items-start gap-1">
-            <div>
-              <h1 className={`${styles.heroHeadText} px-5`}>
-                Hi, I'm <span className="gold">Jordan</span>
-              </h1>
+        <div className="w-full h-screen flex">
+          <div className="flex flex-col items-center w-full h-full justify-start space-y-16">
+            <div className="flex flex-col items-start gap-1">
+              <div>
+                <h1 className={`${styles.heroHeadText} px-5`}>
+                  Hi, I'm <span className="gold">Jordan</span>
+                </h1>
+              </div>
+              <p
+                className={`${styles.heroSubText} inline-block sm:flex-wrap text-white-100 p-4 rounded-xl hover:shadow-xl backdrop-blur-sm bg-gray-400/50 border-gray-800/50 border`}
+              >
+                I am a software developer currently searching
+                <br className="sm:block hidden" /> for full time, remote
+                development positions.
+              </p>
             </div>
-            <p
-              className={`${styles.heroSubText} inline-block sm:flex-wrap text-white-100 p-4 rounded-xl hover:shadow-xl backdrop-blur-sm bg-gray-400/50 border-gray-800/50 border`}
-            >
-              I am a software developer currently searching
-              <br className="sm:block hidden" /> for full time, remote
-              development positions.
-            </p>
+            <div className="w-full h-auto flex items-center justify-center">
+            
+            <img src={jordan} alt="logo" className="rounded-xl w-56 " />
+            </div>
           </div>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      {/* <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -52,7 +59,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };

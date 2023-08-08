@@ -34,14 +34,14 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div varients={textVariant()}>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Indroduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       <motion.p
-        varients={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]"
+        variants={fadeIn("", "", 0.1, 1)}
+        className="text-secondary text-[20px] max-w-3xl leading-[30px]"
       >
         I'm a software developer with <span className="gold">3 years</span> of
         experience coding in <span className="gold">TypeScript</span> and{" "}
@@ -54,7 +54,7 @@ const About = () => {
         scalable, and user-friendly solutions that solve real-world problems.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

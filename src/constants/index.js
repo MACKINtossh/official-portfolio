@@ -120,7 +120,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Astrophysics Major",
+    title: "Astrophysics / Computer Science",
     company_name: "Columbia University New York",
     icon: columbia,
     iconBg: "#383E56",
@@ -133,7 +133,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Fellowship",
+    title: "Full Stack Internship",
     company_name: "Springboard",
     icon: springboard,
     iconBg: "#E6DEDD",
@@ -156,19 +156,6 @@ const experiences = [
       "Implemented 15+ new features as defined and scoped by the client and development team.",
       "Gave 10+ product and feature presentations to the client at the end of designated sprints.",
       "Build 15+ new api routes, controllers and modules for our backend database using Nextjs.",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Super Rich - Independant Contractor",
-    icon: tiger,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developed 8+ production web applications for clients using Typescript, Javascript, React and Nextjs.",
-      "Participated in weekly design sessions with clients to ensure customer needs were met.",
-      "Implemented rich user experiences with tailwind CSS, HTML5/6 following CSS best practices.",
-      "Identified and corrected 50+ bug fixes.",
     ],
   },
 ];
@@ -202,131 +189,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Gateway Ice Center",
+    name: "AI Companion",
     description:
-      "Built a website for a local ice skating rink with Typescript, React, Nextjs and Tailwind.The website contains several pages of information with dropdowns and calendar functionality. Users can email the business from the website and view updated times and schedules",
+      "Fully responsive web app that allows users to have real time conversations with creatable AI models. The project features generated conversations using OpenAI, full email, and google user authentication, Stripe monthly subscription, error handling and full crud functionality with MYSQL database.",
     tags: [
       {
-        name: "Javascript & React",
+        name: "Next 13, OpenAI, Stripe",
         color: "blue-text-gradient",
       },
       {
-        name: "Nextjs",
+        name: "Prisma, MYSQL, PlanetScale",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Pinecone Vector DB, Upstash Redis DB",
         color: "pink-text-gradient",
       },
     ],
     image: gateway,
-    source_code_link: "https://github.com/MACKINtossh/Gateway-Ice-Center",
+    source_code_link: "https://github.com/MACKINtossh/ai-companion",
   },
   {
     name: "Out Of This World",
     description:
-      "This website is a futuristic travel website that allows users to book trips to destinationspreviously off limits to passengers. Buit with Typescript, React, Nextjs MySQL, PlanetScale and Tailwind CSS.",
+      "This website is an AI generator that allows users to sign in and generate code, images, music, videos and conversations. Conversations and images use OpeAI and videos and music are generated using the Replicate API. The project also features full user authentication, stripe subscriptions and full responsiveness. Prisma, MYSQL and PlanetScale were used for the backend production. The project also features AI customer service with Crisp. ",
     tags: [
       {
-        name: "Typescript & Nextjs",
+        name: "Next 13, OpenAI, Replicate",
         color: "blue-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Prisma, MYSQL, PlanetScale",
         color: "green-text-gradient",
       },
       {
-        name: "MySQL",
+        name: "Tailwind (Shadcn UI), Stripe, Crisp",
         color: "pink-text-gradient",
       },
     ],
     image: outOfThisWorld,
-    source_code_link: "https://github.com/MACKINtossh/out-of-this-world",
+    source_code_link: "https://github.com/MACKINtossh/ai-saas",
   },
   {
-    name: "Food Delivery",
+    name: "Strings",
     description:
-      "Built an e-commerce, food delivery website for East and Southeast Asian delicacies. Built with Typescript, React, Nextjs, MySQL, PlanetScale and Tailwind CSS",
+      "Social media app based on the new Threads application by META. This project includes image uploading with Uploadthing, real-time listener events with webhooks, and full user authentication. Users can communicate between themselves and and create and delete communities.",
     tags: [
       {
-        name: "Typescript & Nextjs",
+        name: "Next 13, Shadcn UI",
         color: "blue-text-gradient",
       },
       {
-        name: "PlanetScale",
+        name: "SQL, MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "MySQL",
+        name: "Tailwind, Zod, Uploadthing",
         color: "pink-text-gradient",
       },
     ],
     image: crabHouse,
-    source_code_link: "https://github.com/MACKINtossh/sushiShop/",
+    source_code_link: "https://github.com/MACKINtossh/strings",
   },
-  // {
-  //   name: "Lift Off",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: ,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Document Sumarizer",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: ,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Work Around",
-  //   description:
-  //     "The demos included here are examples of projects that I have build which have a primary focus on the use of Typescrpt. You can again expect mobile responsive sites and state redux toolkit for state management.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: ,
-  //   source_code_link: "https://github.com/",
-  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
