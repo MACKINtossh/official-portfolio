@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="text-secondary text-[20px] max-w-3xl leading-[30px]"
       >
-        I'm a software developer with <span className="gold">3 years</span> of
+        I'm a software developer with <span className="gold">2 years</span> of
         experience coding in <span className="gold">TypeScript</span> and{" "}
         <span className="gold">JavaScript</span>. I commonly use frameworks such
         as <span className="gold">React </span>,{" "}
